@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <section>
+    <h1>Art Portfolio</h1>
+    <!--Navigation bar--> <nav class="navbar">
+        <div class="logo">My portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+    </section>
+    <section id="gallery">
+    <!--Image Gallery--> 
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <div class="gallery-item"><img src="https://d3hocxeqwpeppp.cloudfront.net/templates/yootheme/cache/41/Art-today-6-18-41b28df1.jpeg" alt="Image 1"> <h3>Image 1</h3></div>
+        <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVhTm2MAvPAJumZ5deDW7EIFjLdP5oJrESA&s" alt="Image 2"> <h3>Image 2</h3></div>
+        <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyvozyJCFLtAusOT3mFmT-jMvKZb-9Wf90CA&s" alt="Image 3"> <h3>Image 3</h3></div>
+        <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2J6GbFqDYeXB889JbcluwKQw3wYtJakL1Ug&s" alt="Image 4"> <h3>Image 4</h3></div>
+        <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPD1cdKRZ9xHP1SCwxE01NuGkpStbttDQJhA&s" alt="Image 5"> <h3>Image 5</h3></div>
+        <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_-aXPJYobdGIFnI8n0XeGmMfs_q5aZniAA&s" alt="Image 6"> <h3>Image 6</h3></div>
+        <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQja8PET7AzGfFUZ7Lhk1hLZkvU8v3A2RJMAg&s" alt="Image 7"> <h3>Image 7</h3></div>
+        <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgas76YIJNZiWgYhHVQFGGhcDMhaGazD4qag&s" alt="Image 8"> <h3>Image 8</h3></div>
+        <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH3QTlE94G8k0gvqkrgXHIt-PiIzZOZ49B9g&s" alt="Image 9"> <h3>Image 9</h3></div>
+    </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about-section" id="about">
+        <h2>About</h2>
+        <p>From a very young age, I've always been drawn to the world of art. I remember spending hours with crayons and paper, creating my own little universe where colours and shapes danced together in harmony. Art was more than just a hobby; it was my language, a way to express thought and emotions that words couldn't capture. As I grew older, that childhood fascination only deepened. Each brushstroke, each sketch, felt like a conversation with my innermost self. My passion for art has never wavered-in fact, it has only grown stronger over the years. Today, I approach every canvas with the same excitement I felt as a child, eager to explore new ideas and push the bounderies of my creativity, art is not just something I do; it's an inseperable part of who I am.</p>
+    </section>
+
+    <!--Contact Me Section-->
+    <section class="contact-section" id="contact">
+        <div>
+        <h2>Contact</h2>
+        <form class="contact-form" action="your-server-endpoint" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <br>
+            <br>
+            <button type="submit">Send Message</button>
+        </form>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <footer class="footer">
+        <div class="footer-container">
+        <p>&copy; 2024 art portfolio. All rights reserved,</p>
+        <p>
+            <a href="#">Privacy Policy</a>
+            <a herf="#">Terms of Service</a>
+            <a herf="#">Contact Us</a>
+        </p>
+        </div>
+    </footer>
+</body>
+</html>
